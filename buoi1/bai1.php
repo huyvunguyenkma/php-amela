@@ -3,5 +3,6 @@
     $lastName = "Huy Vu";
     $fullName = FIRST_NAME . " " . $lastName;
     echo $fullName.'<br>';
-    echo str_replace("Huy Vu", "Van A", $fullName);
+    echo strlen($fullName).'<br>';
+    echo FIRST_NAME . " " . str_replace("Vu", "Vy", $lastName);
 ?>
